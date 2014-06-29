@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<project default="build">
+	<property name="project" value="stxFramework"/>
+	<property name="src" location="src"/>
+	<property name="build" location="bin"/>
+	<property name="dist"  location="../dist"/>
+	
+	<target name="compile" description="Compilation target">
+		<!-- Build the sources -->
+		<mkdir dir="${build}"/>
+		<javac srcdir="${src}" destdir="${build}" classpath="lib/plugin.jar" />
+	</target>
+	
+	<target name="build" depends="compile" description="Build target">
+		<!-- Create the jar file -->
+		<mkdir dir="${dist}"/>
+		<jar jarfile="${dist}/${project}.jar" basedir="${build}" />
+	</target>
+	
+	<target name="clean" description="Clean up">
+		<!-- Delete the ${build} and ${dist} directory trees -->
+		<delete dir="${build}"/>
+		<delete file="${dist}/${project}.jar"/>
+	</target>
+</project>

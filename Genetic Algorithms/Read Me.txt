@@ -1,0 +1,13 @@
+Description of the application here:
+
+
+English:
+http://www.styryx.com/en/computers/programming/artifical-intelligence/genetic-algorithms/experiments/robby-soda-can-collector
+
+Czech:
+http://www.styryx.com/cs/vypocetni-technika/programovani/umela-inteligence/geneticke-algoritmy/experimenty/robby-sberac-plechovek
+
+
+Can be run from the website as applet, or from the dist directory by:
+
+java -jar Robby.jar

@@ -1,0 +1,2 @@
+Main-Class: com.styryx.ai.genetic.apps.Robby.Robby
+Class-Path: stxFramework.jar
