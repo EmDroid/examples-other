@@ -1,0 +1,130 @@
+
+3000
+
+Number of processors:   2
+Number of CUDA devices: 1
+        CUDA device #0: GeForce 9300M GS
+                - compute capability:   1.1
+                - multiprocessor count: 1
+                - SM per multiproc:     8
+                - frequency:    1450 MHz
+                - total memory: 256 MB
+                - free memory:  158 MB
+        Selected fastest CUDA device:   #0
+
+Running CUDA test ... done in 0 min 24.72 sec
+Running Multi-thread test ... done in 2 min 5.72 sec
+Running Single-thread test ... done in 3 min 50.96 sec
+
+
+
+QUAD - WinXP
+
+3000
+
+Number of processors:   4
+Number of CUDA devices: 1
+        CUDA device #0: GeForce 8800 GTS
+                - compute capability:   1.0
+                - multiprocessor count: 12
+                - SM per multiproc:     8
+                - frequency:    1188 MHz
+                - total memory: 320 MB
+                - free memory:  286 MB
+        Selected fastest CUDA device:   #0
+
+Running CUDA test ... done in 0 min 4.58 sec
+Running Multi-thread test ... done in 0 min 55.48 sec
+Running Single-thread test ... done in 3 min 31.42 sec
+
+
+4000
+
+Number of processors:   4
+Number of CUDA devices: 1
+        CUDA device #0: GeForce 8800 GTS
+                - compute capability:   1.0
+                - multiprocessor count: 12
+                - SM per multiproc:     8
+                - frequency:    1188 MHz
+                - total memory: 320 MB
+                - free memory:  286 MB
+        Selected fastest CUDA device:   #0
+
+Running CUDA test ... done in 0 min 10.66 sec
+Running Multi-thread test ... done in 2 min 18.45 sec
+Running Single-thread test ... done in 8 min 50.05 sec
+
+
+4500
+
+Number of processors:   4
+Number of CUDA devices: 1
+        CUDA device #0: GeForce 8800 GTS
+                - compute capability:   1.0
+                - multiprocessor count: 12
+                - SM per multiproc:     8
+                - frequency:    1188 MHz
+                - total memory: 320 MB
+                - free memory:  286 MB
+        Selected fastest CUDA device:   #0
+
+Running CUDA test ... done in 0 min 15.42 sec
+Running Multi-thread test ... done in 3 min 50.44 sec
+Running Single-thread test ... done in 14 min 26.41 sec
+
+
+QUAD - Linux
+
+3000
+
+Number of processors:	4
+Number of CUDA devices:	1
+	CUDA device #0:	GeForce 8800 GTS
+		- compute capability:	1.0
+		- multiprocessor count:	12
+		- SM per multiproc:	8
+		- frequency:	1188 MHz
+		- total memory:	320 MB
+		- free memory:	204 MB
+	Selected fastest CUDA device:	#0
+
+Running CUDA test ... done in 0 min 4.55 sec
+Running Multi-thread test ... done in 3 min 34.57 sec
+Running Single-thread test ... done in 3 min 57.61 sec
+
+
+4000
+
+Number of processors:	4
+Number of CUDA devices:	1
+	CUDA device #0:	GeForce 8800 GTS
+		- compute capability:	1.0
+		- multiprocessor count:	12
+		- SM per multiproc:	8
+		- frequency:	1188 MHz
+		- total memory:	320 MB
+		- free memory:	200 MB
+	Selected fastest CUDA device:	#0
+
+Running CUDA test ... done in 0 min 8.34 sec
+Running Multi-thread test ... done in 8 min 49.48 sec
+Running Single-thread test ... done in 8 min 26.78 sec
+
+
+4500
+
+Number of processors:	4
+Number of CUDA devices:	1
+	CUDA device #0:	GeForce 8800 GTS
+		- compute capability:	1.0
+		- multiprocessor count:	12
+		- SM per multiproc:	8
+		- frequency:	1188 MHz
+		- total memory:	320 MB
+		- free memory:	204 MB
+	Selected fastest CUDA device:	#0
+
+Single-thread done: 13 min 53.83 sec
+Multi-thread done: 14 min 33.72 sec
+Exception caught: cudaMalloc() failed with error 2:	out of memory
